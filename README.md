@@ -39,3 +39,12 @@ On each login, it is likely that Instagram will send a notification about an "un
   'posts': 20
 }
  ```
+
+
+ ### To Do
+* Generate a nicely formatted report using the output above.
+* Expand to a more comprehensive `influencer` package. Ideas:
+  * Invoice creation and tracking
+  * Hashtag exploration - charting reach for each hashtag used
+  * Insights over time – charts, etc.
+  * Giveaway helpers – pull list of followers, select one at random, etc.
