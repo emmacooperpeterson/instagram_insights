@@ -9,6 +9,8 @@ import os
 
 
 logging.getLogger().setLevel(logging.INFO)
+logging.getLogger('public_request').setLevel(logging.WARNING)
+logging.getLogger('instagrapi').setLevel(logging.WARNING)
 
 
 def get_posts(client: Client, username: str, num_posts: int = 20) -> list:
